@@ -2,6 +2,14 @@
 
 API REST para detectar imagenes y videos generados o manipulados por Inteligencia Artificial.
 
+<p align="center">
+  <img src="docs/images/detection.png" alt="IA Detector - Detection" width="600">
+</p>
+
+<p align="center">
+  <img src="docs/images/detector-result.png" alt="IA Detector - Result" width="600">
+</p>
+
 ## Caracteristicas
 
 - Deteccion de imagenes generadas por IA (DALL-E, Midjourney, Stable Diffusion, etc.)
@@ -287,6 +295,23 @@ MODEL_NAME=umm-maybe/AI-image-detector
 MAX_IMAGE_SIZE=4096
 CACHE_DIR=.cache
 ```
+
+## Screenshots
+
+Las imagenes anteriores muestran:
+
+1. **Detection** - Interfaz o resultado del proceso de deteccion de contenido IA
+2. **Detector Result** - Resultado detallado del analisis
+
+> Las imagenes se encuentran en la carpeta `docs/images/`. Puedes agregar mas screenshots alli si lo deseas.
+
+## Como agregar screenshots
+
+1. **Guarda tus screenshots** en la carpeta `docs/images/`
+2. **Referencia las imagenes** en el README usando:
+   ```markdown
+   ![Descripcion](docs/images/nombre-imagen.png)
+   ```
 
 ## Licencia
 
